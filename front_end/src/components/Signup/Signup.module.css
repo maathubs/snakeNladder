@@ -1,0 +1,47 @@
+.Signup {
+    display: inline-block;
+    margin-left: 641px;
+    margin-top: 112px;
+    width: 50%;
+}
+#signUp {
+    font-size: 29px;
+    margin-left: 639px;
+    color:#DB4C3F;
+}
+.createAccount {
+    display: inline-block;
+    width: 61%;
+    height: 53px;
+    font-size: 23px;
+    font-weight: bold;
+    color:saddlebrown;
+    background-color:cornflowerblue;
+    margin-bottom: 17px;
+}
+.createLinkAccount{
+    display: inline-block;
+    width: 61%;
+    height: 53px;
+    font-size: 23px;
+    font-weight: bold;
+    color: saddlebrown;
+    background-color:cornflowerblue;
+    margin-bottom: 17px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5
+}
+.createLinkAccount:hover{
+    cursor: pointer;
+}
+.createAccount:hover{
+    cursor: pointer;
+}
+input.inputName {
+    width: 59%;
+    margin-bottom: 20px;
+    height: 36px;
+    padding-left: 13px;
+    font-size: 17px;
+}

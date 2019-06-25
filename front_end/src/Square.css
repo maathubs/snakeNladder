@@ -1,0 +1,15 @@
+.square {
+    width: 97px;
+    height: 97px;
+    /* display: inline-block; */
+    background-color:teal;
+    border: 1px solid black;
+    float: left;
+}
+
+.square .tile-number {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}

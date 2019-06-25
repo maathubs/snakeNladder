@@ -1,0 +1,37 @@
+.square {
+    width: 97px;
+    height: 97px;
+    /* display: inline-block; */
+    background-color:teal;
+    border: 1px solid black;
+    float: left;
+}
+
+.square .tile-number {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+span.start {
+    display: inherit;
+    vertical-align: center;
+    position: absolute;
+    /* left: 11px; */
+    margin: 11px;
+    font-size: 17px;
+    /* font-style: oblique; */
+    font-family: initial;
+    font-weight: bolder;
+}
+span.gameOver {
+    display: inherit;
+    vertical-align: center;
+    position: absolute;
+    /* left: 18px; */
+    margin: 11px;
+    font-size: 17px;
+    /* top: 32px; */
+    font-family: initial;
+    font-weight: bolder;
+}

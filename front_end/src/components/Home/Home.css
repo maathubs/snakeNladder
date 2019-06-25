@@ -1,0 +1,125 @@
+.squareContainer {
+    width: 990px;
+	margin: 48px;
+	position:absolute;
+
+}
+button.addUser {
+    width: 138px;
+    height: 53px;
+    font-size: 22px;
+    background-color: saddlebrown;
+    float: right;
+    color: darkturquoise;
+    margin: 48px;
+    border-radius: 20%;
+}
+.addUser:hover{
+    cursor: pointer;
+}
+.squareContainer .ladders {
+    
+	position: absolute;
+	/* position:sticky; */
+	background: rgba(255,255,255,0.05);
+	bottom: 0;
+	left: 14px;
+	height: 100%;
+	width: 100%;
+	z-index: 200;
+	
+}
+.squareContainer .ladders .ladder {
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	background: #000;
+	width: 60px;
+	margin: 15px;
+	background: url('/images/ladder.png') repeat-y; 
+	background-position: center;
+}
+.squareContainer .snakes {
+	position: absolute;
+	/* position:sticky; */
+	background: rgba(255,255,255,0.05);
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+}
+.squareContainer .snakes .snake {
+	position: absolute;
+	width: 60px;
+	margin: 15px;
+	background: url('/images/snake.png') repeat-y;
+	background-size: 100% 100%;
+}
+.lighten {
+	filter: brightness(70%);
+ } 
+ /* .rollDice {
+    margin: 48px;
+    width: 189px;
+    float: right;
+    text-align: center;
+    background-color: #99742f;
+    border-radius: 10px;
+    padding: 20px;
+} */
+.rollDice {
+    /* margin: 48px; */
+    width: 189px;
+    float: right;
+    text-align: center;
+    background-color: #99742f;
+    border-radius: 10px;
+    padding: 20px;
+    /* top: 20px; */
+    margin-top: 259px;
+    margin-left: 83px;
+    margin-right: 87px;
+}
+.rollDice img {
+    width: 100%;
+    height: 91%;
+    margin: 0 !important;
+}
+.roundButton {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin: -23px;
+    clear: both;
+    border: 5px solid mediumslateblue;
+    float: right;
+    position: absolute;
+    color: black;
+	font-size: 27px;
+	transition: all 1s;
+	background-color: greenyellow;
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center; 
+}
+
+.flex.row {
+		flex-direction: row;
+		flex-wrap: wrap
+}
+p.move {
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+button.rollDicebtn {
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+    font-stretch: bold;
+    /* background:palegreen; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

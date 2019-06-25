@@ -1,0 +1,52 @@
+img {
+    padding-left: -57px;
+    /* margin-right: 93px; */
+    margin-left: 19px;
+    color: white;
+}
+.container {
+    background-color: #FAFAFA;
+    height: 100%;
+    /* height:588px; */
+  }
+  .header {
+    font-size:25px;
+    background-color:cornflowerblue;
+    color:saddlebrown;
+    height:58px;
+    font-weight: bold;
+    line-height: 2;
+    width:100%;
+    
+  }
+  
+  #headSvg {
+    display: inline-block;
+    padding: 17px;
+      overflow: hidden;
+      vertical-align: middle;
+      width: 200px;
+      margin-left: -34px;
+  }
+  .headName {
+    display: inline-block;
+    line-height: 2;
+    vertical-align: top;
+    margin-left: 785px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .main {
+    vertical-align: top;
+    /* display: inline-block; */
+    height:760px;
+  }
+  .sideBar {
+    display: inline-block;
+    width: 25%;
+    background-color:lightgray;
+    height:760px;
+    /* height: 100%; */
+    
+  }
